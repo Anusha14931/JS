@@ -1,0 +1,17 @@
+function getPyramidNum(num)
+{
+    for(let i = 1;i <= num; i++){
+        let row1 = " ".repeat(num-i);
+        totnumofrows1 = i;
+
+        for(let j = 1;j <=totnumofrows1; j++){
+            row1 += j + " ";
+
+        }
+        console.log(row1);
+    
+    }
+    return "";
+}
+
+console.log(getPyramidNum(5));
